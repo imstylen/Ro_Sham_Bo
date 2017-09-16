@@ -41,4 +41,7 @@ class Computer(Player.Player):
         print("\t{}: {}".format(self.name,hand))
         return hand
 
+    def getLimits(self):
+        return [self.rockL,self.paperL]
+
 pass
