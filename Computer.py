@@ -40,3 +40,5 @@ class Computer(Player.Player):
                 hand.append('s')
         print("\t{}: {}".format(self.name,hand))
         return hand
+
+pass
