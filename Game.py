@@ -17,7 +17,7 @@ class Game:
     def getScores(self):
 
         battleStr = ['rr','rp','rs','pr','pp','ps','sr','sp','ss']
-        battlePt = [0,-1,1,1,0,-1,-1,1,0];
+        battlePt = [0,-1,1,1,0,-1,-1,1,0]
 
         scores = []
         for hand in self.hands:
